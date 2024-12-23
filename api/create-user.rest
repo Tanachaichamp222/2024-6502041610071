@@ -1,20 +1,22 @@
 #identication
 POST http://localhost:8080/auth/register
 Content-Type: application/json
-Authorization:  Bearer c599cca7604a45234ab21bc881f776ba2cc729b7aecf2bbf67d53dd70d2a921234e3787f794f0ba5b41afe07395f9b2122a28f68abceb5831018785dd5bd58916ef1050c27bdafa6024a4d7895b696c5ec2c496454d1539e4ecf546ce9f5a409597ae54dd6b85b373751609bf9c3ec53f7ecb8af0386dd8787a2979b8443cf27
+Authorization: Bearer c599cca7604a45234ab21bc881f776ba2cc729b7aecf2bbf67d53dd70d2a921234e3787f794f0ba5b41afe07395f9b2122a28f68abceb5831018785dd5bd58916ef1050c27bdafa6024a4d7895b696c5ec2c496454d1539e4ecf546ce9f5a409597ae54dd6b85b373751609bf9c3ec53f7ecb8af0386dd8787a2979b8443cf27
 
-
-{
-    "usename": "champion",
+   {
+    "usename": "tanachai",
     "email"  : "tanachai@gmail.com",
-    "password": "4@p@ssword"
+    "password": "3y@p@ssword"
 }
+
+
+
 
 #Authentication(login)
 POST http://localhost:8080/auth/local
 Content-Type: application/json
 
 {
-    "identifier": "demo@demo.com",
-    "password": "p@ssword"
+    "identifier": "chanaphol",
+    "password": "3y@p@ssword"
 }
