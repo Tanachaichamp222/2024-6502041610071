@@ -17,6 +17,6 @@ POST http://localhost:8080/auth/local
 Content-Type: application/json
 
 {
-    "identifier": "chanaphol",
+    "identifier": "tanachai",
     "password": "3y@p@ssword"
 }
