@@ -1,22 +1,5 @@
-#identication
-POST http://localhost:8080/auth/register
-Content-Type: application/json
-Authorization: Bearer c599cca7604a45234ab21bc881f776ba2cc729b7aecf2bbf67d53dd70d2a921234e3787f794f0ba5b41afe07395f9b2122a28f68abceb5831018785dd5bd58916ef1050c27bdafa6024a4d7895b696c5ec2c496454d1539e4ecf546ce9f5a409597ae54dd6b85b373751609bf9c3ec53f7ecb8af0386dd8787a2979b8443cf27
+Invoke-RestMethod -Uri http://localhost:8080/api/auth/local/register `
+-Method POST ` -Headers @{ "Content-Type" = "application/json"; "Authorization" = "Bearer e7dccaf8c8a00b8af400ce578c214a27375ff0bcd9a0c30a596f84e50d616f9d4e4f2acc523e4c3560bd8282e48dfab16936f4388bea12bd42a6e49a5cf24cb261c7930e56e6055742b88c983f69be58dd70e89382b95682c926e66c77f6c0a977a14fec6f7316c772971be16039569bbd6b114c454e480415c51c1a205e0ca9" } ` -Body '{
 
-   {
-    "usename": "tanachai",
-    "email"  : "tanachai@gmail.com",
-    "password": "4y@p@ssword"
-}
-
-
-
-
-#Authentication(login)
-POST http://localhost:8080/auth/local
-Content-Type: application/json
-
-{
-    "identifier": "tanachaichamp",
-    "password": "4y@p@ssword"
-}
+"username": "Panya1", "email": "Panyawut1.khr@gmail.com", "password": "123456789gG@"
+}'
