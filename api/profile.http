@@ -1,3 +1,3 @@
-# Authentication(Login)     
+# Authentication(Login)   
 GET  http://localhost:8080/api/users/me
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNzM2MTUxODMwLCJleHAiOjE3Mzg3NDM4MzB9._KF8z1JHXRi5l-ZBH1sRHFi0MKOcVe40zYM3O19XThU
